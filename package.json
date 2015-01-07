@@ -1,0 +1,15 @@
+{
+  "name": "lock-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify -e index.js -o bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "auth0-lock": "^6.8.3",
+    "browserify": "^8.0.3"
+  }
+}
